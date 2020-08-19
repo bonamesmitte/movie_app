@@ -5,7 +5,12 @@ function About(props) {
   console.log(props);
   return (
     <div className="about_container">
-      <span> I 💖 Movies🤣🙉🙀🎃👻🤠</span>
+      <span>
+        {' '}
+        Cinema💖Paradise
+        <br />
+        🤣🙉🙀🎃👻🤠
+      </span>
     </div>
   );
 }

@@ -10,7 +10,7 @@ class Detail extends Component {
   render() {
     const { location } = this.props;
     if (location.state) {
-      return <span>{location.state.title}</span>;
+      return <h2>{location.state.summary}</h2>;
     } else {
       return null;
     }
