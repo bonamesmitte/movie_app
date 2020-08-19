@@ -1,3 +1,8 @@
+.movie {
+  display: grid;
+  grid-gap: 20px;
+}
+
 .movies .movie {
   width: 45%;
   background-color: white;
@@ -9,6 +14,7 @@
   padding: 20px;
   border-radius: 5px;
   color: #adaeb9;
+  text-decoration: none;
 }
 
 .movie img {
