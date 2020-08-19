@@ -13,7 +13,7 @@
 
 .movie img {
   position: relative;
-  top: -50px;
+  top: 0px;
   max-width: 150px;
   width: 100%;
   margin-right: 30px;
