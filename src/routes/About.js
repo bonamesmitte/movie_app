@@ -7,7 +7,7 @@ function About(props) {
     <div className="about_container">
       <span>
         {' '}
-        Cinema💖Paradise
+        We 💖 Cinema Paradise
         <br />
         🤣🙉🙀🎃👻🤠
       </span>
