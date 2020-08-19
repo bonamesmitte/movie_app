@@ -1,16 +1,16 @@
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import About from './routes/About';
 import Home from './routes/Home';
 import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navigation />
       <Route path="/" component={Home} exact={true} />
       <Route path="/about" component={About} />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
