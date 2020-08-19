@@ -11,7 +11,7 @@ function App() {
       <Navigation />
       <Route path="/" component={Home} exact={true} />
       <Route path="/about" component={About} />
-      <Route path="/movie_detail" component={Detail} />
+      <Route path="/movie/:id" component={Detail} />
     </BrowserRouter>
   );
 }
